@@ -1,192 +1,196 @@
 * {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 body {
-    font-family: 'Noto Sans Sinhala', sans-serif;
-    color: #444240;
-    font-size: 0.875rem;
-    margin: 0;
-    padding: 0;
+  font-family: "Noto Sans Sinhala", sans-serif;
+  color: #444240;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0;
 }
 
 .input-group ::placeholder {
-    color: #C3C3C3;
-    opacity: 1; /* Firefox */
+  color: #c3c3c3;
+  opacity: 1; /* Firefox */
 }
-  
-.input-group ::-ms-input-placeholder { /* Edge 12 -18 */
-    color: #C3C3C3;
+
+.input-group ::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #c3c3c3;
 }
 
 a {
-    color: #444240;
+  color: #444240;
 }
 
 a:hover {
-    color: #FFCA11;
+  color: #d79111;
 }
 
 .logo-img {
-    height: 40px;
+  height: 40px;
 }
 
 .logo-bar {
-    background-color: #FFCA11;
+  background-color: #d79111;
 }
 
 .logo-bar .input-group {
-    height: 50px;
+  height: 50px;
 }
 
-.logo-bar .input-group, .logo-bar input {
-    border: none;
+.logo-bar .input-group,
+.logo-bar input {
+  border: none;
 }
 
 .search-btn {
-    background-color: #444240;
-    color: #fff;
+  background-color: #444240;
+  color: #fff;
 }
 
-.search-btn:hover, .search-btn:focus, .search-btn:active {
-    background-color: #444240 !important;
-    border-color: #444240;
+.search-btn:hover,
+.search-btn:focus,
+.search-btn:active {
+  background-color: #444240 !important;
+  border-color: #444240;
 }
 
 .logo-bar img {
-    fill: #FFCA11;
+  fill: #d79111;
 }
 
-.navbar-bg{
-    background-color: #fff;
-    border-bottom: 1px solid #DEE2E6;
-    padding: 0;
+.navbar-bg {
+  background-color: #fff;
+  border-bottom: 1px solid #dee2e6;
+  padding: 0;
 }
 
 .navbar-toggler {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-nav {
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .nav-link {
-    font-size: 0.875rem;
-    font-weight: 600;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 .nav-link:hover {
-    color: #FFCA11;
+  color: #d79111;
 }
 
 .nav-link.active {
-    color: #FFCA11 !important;
+  color: #d79111 !important;
 }
 
 .nav-item.dot {
-    width: 8px;
-    height: 8px;
-    background-color: #FFCA11;
-    border-radius: 100%;
+  width: 8px;
+  height: 8px;
+  background-color: #d79111;
+  border-radius: 100%;
 }
 
 .mail-container .m-left {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .mail-container .m-right .small-text {
-    font-size: 0.625rem;
+  font-size: 0.625rem;
 }
 
 .mail-container .m-right a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .section-1-outer {
-    margin-top: 130px;
+  margin-top: 130px;
 }
 
 .section-header {
-    font-size: 1.5rem;
-    font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .section-sub {
-    font-size: 0.75rem;
-    margin-top: 15px;
+  font-size: 0.75rem;
+  margin-top: 15px;
 }
 
 .chip {
-    padding: 10px 20px;
-    border-radius: 50px;
-    background-color: #F7F7F7;
-    border-color: #F0F0F0;
-    margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #f7f7f7;
+  border-color: #f0f0f0;
+  margin-bottom: 10px;
 }
 
 .chip span {
-    color: #FFCA11;
+  color: #d79111;
 }
 
 .chip:hover {
-    background-color: #FFCA11;
-    border-color: #FFCA11;
+  background-color: #d79111;
+  border-color: #d79111;
 }
 
 .chip:hover span {
-    color: #fff;
+  color: #fff;
 }
 
 .image-container {
-    border-bottom: 1px solid #444240;
+  border-bottom: 1px solid #444240;
 }
 
 .accordion-button {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #444240;
-    background-color: #f8f9fa;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #444240;
+  background-color: #f8f9fa;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #FFCA11;
-    background-color: #F7F7F7;
+  color: #d79111;
+  background-color: #f7f7f7;
 }
 
 .accordion-body {
-    color: #444240;
+  color: #444240;
 }
 
 .accordion-body ul {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .accordion-body ul li {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .accordion-body li::marker {
-    color: #FFCA11;
-  }
+  color: #d79111;
+}
 
 .accordion-body ul li:last-child {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .footer {
-    background-color: #FFCA11;
-    padding: 15px 0;
+  background-color: #d79111;
+  padding: 15px 0;
 }
 
 .footer-title {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .footer p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
